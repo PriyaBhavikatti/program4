@@ -1,0 +1,97 @@
+
+BLDEA-CSE@DESKTOP-P79E8O5 MINGW64 ~/Desktop (master)
+$ cd
+
+BLDEA-CSE@DESKTOP-P79E8O5 MINGW64 ~ (master)
+$ cd Rohan
+
+BLDEA-CSE@DESKTOP-P79E8O5 MINGW64 ~/Rohan (master)
+$ ls
+ 09.02.24.txt   LibraryManagementSystem-using-java/   Project-1/   add.java  'c2 textfile.txt.txt'   classtest.txt   file1.txt   java.java   lab.txt    samarth153/   shreya.txt     test.txt
+ Democc.txt     N1.txt                                Project1.c   as.txt     c203.c                 eng.txt         git4.txt    kar.txt     new1.txt   sh.txt        teamwork.txt   textfile.txt
+
+BLDEA-CSE@DESKTOP-P79E8O5 MINGW64 ~/Rohan (master)
+$ nano eng.txt
+
+BLDEA-CSE@DESKTOP-P79E8O5 MINGW64 ~/Rohan (master)
+$ git add eng.txt
+
+BLDEA-CSE@DESKTOP-P79E8O5 MINGW64 ~/Rohan (master)
+$ git commit -m "latest commit"
+[master 448caae] latest commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+BLDEA-CSE@DESKTOP-P79E8O5 MINGW64 ~/Rohan (master)
+$ nano eng.txt
+
+BLDEA-CSE@DESKTOP-P79E8O5 MINGW64 ~/Rohan (master)
+$ git log
+commit 448caae1b843c90d4e3f91482c8439cb86179069 (HEAD -> master)
+Author: RohanJibate <rohanjibate17@gmail.com>
+Date:   Thu Feb 22 21:47:16 2024 +0530
+
+    latest commit
+
+commit be1f69c14318549e64317ea593f2d948ab3fe571
+Author: RohanJibate <rohanjibate17@gmail.com>
+Date:   Thu Feb 1 22:54:10 2024 +0530
+
+    fourth commit
+
+commit adc21ecd063342f8f02324d26a1e861e9c1c3e1f
+Author: RohanJibate <rohanjibate17@gmail.com>
+Date:   Thu Feb 1 22:53:38 2024 +0530
+
+    third commit
+
+commit 039bb05e0e6a11a70ee09cba2e99f58c732fa63f (tag: v1.0)
+Author: RohanJibate <rohanjibate17@gmail.com>
+Date:   Thu Feb 1 22:53:15 2024 +0530
+
+    second commit
+
+commit 0731937dbfe7c44040d85e15c42419e5bc0b911e
+Author: RohanJibate <rohanjibate17@gmail.com>
+Date:   Thu Feb 1 22:52:48 2024 +0530
+
+    first commit
+
+commit 91fc1fe76574711906d1221f601ff06a10ff0df1
+Author: RohanJibate <rohanjibate17@gmail.com>
+Date:   Thu Feb 1 22:47:28 2024 +0530
+
+    fourth commit
+
+commit f3fa05ff49d06f43c880c8e07c87ab2db3265f8f
+Author: RohanJibate <rohanjibate17@gmail.com>
+Date:   Thu Feb 1 22:46:54 2024 +0530
+
+    third commit
+
+commit 283745d8628b3818bc80e72af9d1cfd3b2436983
+Author: RohanJibate <rohanjibate17@gmail.com>
+Date:   Thu Feb 1 22:46:01 2024 +0530
+
+    second commit
+
+commit a9eef241c90c0b4ea516dda6a9269411d60c9942
+Author: RohanJibate <rohanjibate17@gmail.com>
+Date:   Thu Feb 1 22:39:27 2024 +0530
+
+    first commit
+
+commit 953d5ff8da776b1e705459ceecd9f4b82ed47b3d
+Merge: 8d5b21c b32500a
+Author: RohanJibate <rohanjibate17@gmail.com>
+Date:   Thu Feb 1 22:04:24 2024 +0530
+
+BLDEA-CSE@DESKTOP-P79E8O5 MINGW64 ~/Rohan (master)
+$ git revert  448caae1b843c90d4e3f91482c8439cb86179069
+[master f792c72] Revert "latest commit"
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+BLDEA-CSE@DESKTOP-P79E8O5 MINGW64 ~/Rohan (master)
+$ nano eng.txt
+
+BLDEA-CSE@DESKTOP-P79E8O5 MINGW64 ~/Rohan (master)
+$
